@@ -1,0 +1,61 @@
+[Version]
+Signature="$WINDOWS NT$"
+Delta Neon Blue Shadow Cursors by You
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Ani
+AddReg    = Scheme.Reg, ApplyReg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Ani = 10,"%ANI_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\Normal Select.cur,%10%\%CUR_DIR%\Help Select.cur,%10%\%ANI_DIR%\Working In Background.ani,%10%\%ANI_DIR%\Busy.ani,%10%\%CUR_DIR%\Precision Select.cur,%10%\%CUR_DIR%\Text Select.cur,%10%\%CUR_DIR%\Handwriting.cur,%10%\%CUR_DIR%\Unavailable.cur,%10%\%CUR_DIR%\Vertical Resize.cur,%10%\%CUR_DIR%\Horizontal Resize.cur,%10%\%CUR_DIR%\Diagonal Resize 1.cur,%10%\%CUR_DIR%\Diagonal Resize 2.cur,%10%\%CUR_DIR%\Move.cur,%10%\%CUR_DIR%\Alternate Select.cur,%10%\%CUR_DIR%\Link Select.cur,%10%\%CUR_DIR%\Universal.cur,%10%\%CUR_DIR%\Busy Star.cur"
+
+[ApplyReg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors","Arrow",,"C:\Windows\Cursors\DeltaNeon\Normal Select.cur"
+HKCU,"Control Panel\Cursors","Help",,"C:\Windows\Cursors\DeltaNeon\Help Select.cur"
+HKCU,"Control Panel\Cursors","AppStarting",,"C:\Windows\Cursors\DeltaNeon\Working In Background.ani"
+HKCU,"Control Panel\Cursors","Wait",,"C:\Windows\Cursors\DeltaNeon\Busy.ani"
+HKCU,"Control Panel\Cursors","Crosshair",,"C:\Windows\Cursors\DeltaNeon\Precision Select.cur"
+HKCU,"Control Panel\Cursors","IBeam",,"C:\Windows\Cursors\DeltaNeon\Text Select.cur"
+HKCU,"Control Panel\Cursors","NWPen",,"C:\Windows\Cursors\DeltaNeon\Handwriting.cur"
+HKCU,"Control Panel\Cursors","No",,"C:\Windows\Cursors\DeltaNeon\Unavailable.cur"
+HKCU,"Control Panel\Cursors","SizeNS",,"C:\Windows\Cursors\DeltaNeon\Vertical Resize.cur"
+HKCU,"Control Panel\Cursors","SizeWE",,"C:\Windows\Cursors\DeltaNeon\Horizontal Resize.cur"
+HKCU,"Control Panel\Cursors","SizeNWSE",,"C:\Windows\Cursors\DeltaNeon\Diagonal Resize 1.cur"
+HKCU,"Control Panel\Cursors","SizeNESW",,"C:\Windows\Cursors\DeltaNeon\Diagonal Resize 2.cur"
+HKCU,"Control Panel\Cursors","SizeAll",,"C:\Windows\Cursors\DeltaNeon\Move.cur"
+HKCU,"Control Panel\Cursors","UpArrow",,"C:\Windows\Cursors\DeltaNeon\Alternate Select.cur"
+HKCU,"Control Panel\Cursors","Hand",,"C:\Windows\Cursors\DeltaNeon\Link Select.cur"
+HKCU,"Control Panel\Cursors","Person",,"C:\Windows\Cursors\DeltaNeon\Universal.cur"
+HKCU,"Control Panel\Cursors","Pin",,"C:\Windows\Cursors\DeltaNeon\Busy Star.cur"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+"Normal Select.cur"
+"Help Select.cur"
+"Precision Select.cur"
+"Text Select.cur"
+"Handwriting.cur"
+"Unavailable.cur"
+"Vertical Resize.cur"
+"Horizontal Resize.cur"
+"Diagonal Resize 1.cur"
+"Diagonal Resize 2.cur"
+"Move.cur"
+"Alternate Select.cur"
+"Link Select.cur"
+"Universal.cur"
+"Busy Star.cur"
+
+[Scheme.Ani]
+"Busy.ani"
+"Working In Background.ani"
+
+[Strings]
+CUR_DIR     = "Cursors\DeltaNeon"
+ANI_DIR     = "Cursors\DeltaNeon"
+SCHEME_NAME = "Delta Neon Blue Shadow by You"
